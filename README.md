@@ -1,0 +1,2 @@
+# githook
+hooks for git
