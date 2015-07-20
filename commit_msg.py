@@ -17,7 +17,7 @@ qac_conf_file = r"C:\\PRQA\\QAC-8.1.2-R\\bin\\QACCONF.BAT"
 gnumake = cur_dir + r"\\tools\\utilities\\gnumake VEHCFG=MT22p1_ETC_FF_4CYL SOFTWARE=MT22p1_ETC_4CYL_FF_SW"
 make_git_qac_target = " qac_git_com"
 qac_config_file = cur_dir + "\\qac\\qac_config"
-qac_output_dir = cur_dir + "\\qac\\{0}_".fromat(cur_branch_name) + strftime("%Y_%m_%d_%H_%M_%S", gmtime())
+qac_output_dir = cur_dir + "\\qac\\{0}_".format(cur_branch_name) + strftime("%Y_%m_%d_%H_%M_%S", gmtime())
 cmd_list = []
 if not os.path.exists(qac_output_dir):
     os.mkdir(qac_output_dir)
