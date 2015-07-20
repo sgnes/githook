@@ -71,7 +71,6 @@ class MyGitLib(object):
                             res_dict[file_name] = self.get_detail_change_lines(detail_change)
                     else:
                         line = temp_f.readline()
-                self.__logger.info(res_dict)
                 return res_dict
             temp_f.close()
         else:
