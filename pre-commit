@@ -1,0 +1,3 @@
+#! C:/Program Files (x86)/Git/bin/sh.exe
+
+C:/python27/python .git/hooks/pre_commit.py
